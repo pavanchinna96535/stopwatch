@@ -16,7 +16,7 @@ function App() {
         <BrowserRouter>
         
           <Routes>
-            <Route path='/stopwatch' element={<Stopwatch/>}></Route>
+            <Route path='/' element={<Stopwatch/>}></Route>
             
             <Route path='/counter' element={
               <Suspense fallback={<div>loading counter...</div>}>
